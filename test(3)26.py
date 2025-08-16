@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Filename : test.py  
 # author by : www.runoob.com
 
@@ -47,3 +48,10 @@ elif choice == '4':
     print(num1,"/",num2,"=",divide)
 else:
     print("非法输入")
+=======
+import statistics
+
+data = [1,2,3,4,5,6,7,8,9,10]
+quantiles = statistics.quantiles(data, n=4, method='inclusive')
+print(quantiles)
+>>>>>>> 97e04fd8f1a7712f6dcc21b0461796cd8cd10568

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Filename : test.py  
 # author by : www.runoob.com  
 
@@ -24,3 +25,10 @@ num1 = int(input("输入第一个数字: "))
 num2 = int(input("输入第二个数字: "))
 
 print( num1,"和", num2, "的最小公倍数为", lcm(num1,num2))
+=======
+import statistics
+
+data = [1,2,3,4,5]
+variance = statistics.variance(data)
+print(variance)
+>>>>>>> 97e04fd8f1a7712f6dcc21b0461796cd8cd10568

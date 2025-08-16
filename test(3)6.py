@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Filename : test.py
 # author by : www.runoob.com
 
@@ -19,3 +20,16 @@ sol1 = (-b-cmath.sqrt(d))/(2*a)
 sol2 = (-b+cmath.sqrt(d))/(2*a)
 
 print('结果为 {0} 和 {1}'.format(sol1,sol2))
+=======
+# 导入 math 包
+import math
+
+# 初始化 n 
+n = 7
+
+# 初始化 k
+k = 5
+
+# 输出从 n 个项中选择 k 项的方式总数
+print (math.perm(n,k))
+>>>>>>> 97e04fd8f1a7712f6dcc21b0461796cd8cd10568

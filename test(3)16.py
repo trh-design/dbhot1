@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Filnema : test.py 
 # author by : ww.runoob.com
 
@@ -22,3 +23,9 @@ if num == sum:
     print(num,"是阿姆斯特朗数")
 else:
     print(num,"不是阿姆斯特朗数")
+=======
+import hashlib
+
+md5_hash = hashlib.md5(b'RUNOOB')
+print(md5_hash.hexdigest())
+>>>>>>> 97e04fd8f1a7712f6dcc21b0461796cd8cd10568

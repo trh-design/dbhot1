@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # -*- coding : -*-
 
 # Filename : test.py 
@@ -29,3 +30,11 @@ else:
         n1 = n2
         n2 = nth 
         count += 1
+=======
+
+import hashlib
+
+sha256_hash = hashlib.new('sha256')
+sha256_hash.update(b'RUNOOB')
+print(sha256_hash.hexdigest())
+>>>>>>> 97e04fd8f1a7712f6dcc21b0461796cd8cd10568

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Filename : test.py  
 # auther by : www.runoob.com
 
@@ -10,3 +11,10 @@ elif num == 0:
     print("零")
 else: 
     print("负数")
+=======
+# 导入 random 包
+import random
+
+# 生成随机数
+print(random.random())
+>>>>>>> 97e04fd8f1a7712f6dcc21b0461796cd8cd10568
